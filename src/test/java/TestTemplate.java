@@ -146,6 +146,7 @@ public class TestTemplate {
     * 全部删除
     *
     * */
+    @Test
     public void testDeleteAll(){
         Query query =new SimpleQuery("*:*");
         solrTemplate.delete(query);
